@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/kipos/static/css/main.53bb8713.chunk.css",
+    "main.js": "/kipos/static/js/main.783bf8b3.chunk.js",
+    "main.js.map": "/kipos/static/js/main.783bf8b3.chunk.js.map",
+    "runtime-main.js": "/kipos/static/js/runtime-main.829a11bf.js",
+    "runtime-main.js.map": "/kipos/static/js/runtime-main.829a11bf.js.map",
+    "static/js/2.4bf870ea.chunk.js": "/kipos/static/js/2.4bf870ea.chunk.js",
+    "static/js/2.4bf870ea.chunk.js.map": "/kipos/static/js/2.4bf870ea.chunk.js.map",
+    "index.html": "/kipos/index.html",
+    "precache-manifest.8db2113ec5ed9f0a9cacd08de74ee6c8.js": "/kipos/precache-manifest.8db2113ec5ed9f0a9cacd08de74ee6c8.js",
+    "service-worker.js": "/kipos/service-worker.js",
+    "static/css/main.53bb8713.chunk.css.map": "/kipos/static/css/main.53bb8713.chunk.css.map",
+    "static/js/2.4bf870ea.chunk.js.LICENSE.txt": "/kipos/static/js/2.4bf870ea.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/kipos/static/media/MuseoSansCyrl-500.db0c88fe.eot",
+    "static/media/calc.png": "/kipos/static/media/calc.50690e08.png",
+    "static/media/infoArch.png": "/kipos/static/media/infoArch.4d37ffe7.png",
+    "static/media/infoDesign.png": "/kipos/static/media/infoDesign.38420c9a.png",
+    "static/media/infoLand.png": "/kipos/static/media/infoLand.a0868b22.png",
+    "static/media/project.png": "/kipos/static/media/project.7f4f8a1c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.829a11bf.js",
+    "static/js/2.4bf870ea.chunk.js",
+    "static/css/main.53bb8713.chunk.css",
+    "static/js/main.783bf8b3.chunk.js"
+  ]
+}
