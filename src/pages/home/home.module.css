@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  width: 17%;
+}
+.spaceBetween {
+  width: 4%;
+}
+.spaceAtEnd {
+  width: 3%;
+}
+
+.content {
+  width: 76%;
+}

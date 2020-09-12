@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container img {
+  width: 20px;
+}
+.container img:first-child {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.container div {
+  cursor: pointer;
+}
+.container img:hover {
+  filter: invert();
+}

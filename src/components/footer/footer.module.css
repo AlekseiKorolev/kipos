@@ -1,0 +1,18 @@
+.container {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  /*background-color: rgba(200, 200, 0, 0.2);*/
+}
+.container div {
+  padding: 20px 0;
+}
+.container span {
+  display: block;
+  font-size: 1em;
+  color: #606060;
+}

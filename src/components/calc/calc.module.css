@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  display: flex;
+  margin-top: 35px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+  filter: brightness(65%);
+}
+.calcForm {
+  position: absolute;
+  left: 46%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: #fff;
+}
+.calcForm div:first-child {
+  text-transform: uppercase;
+  padding: 15px;
+}
+.calcForm div:last-child {
+  padding: 10px;
+}
+.calcForm button {
+  text-transform: uppercase;
+  font-family: "Century";
+  font-size: 0.9em;
+  color: #c7b287;
+  padding: 10px 10px;
+  background-color: #000;
+  border: none;
+}

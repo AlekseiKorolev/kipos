@@ -1,0 +1,23 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.titleContainer div:first-child {
+  display: flex;
+}
+
+.mainTitle {
+  font-size: 1.65em;
+  font-family: "Century";
+  color: #000;
+  line-height: 1em;
+  text-align: left;
+  border-bottom: 2px solid #c7b287;
+}
+.comment {
+  font-size: 0.7em;
+  line-height: 0.55em;
+  margin-top: 10px;
+  color: #646464;
+}

@@ -1,0 +1,35 @@
+.container {
+}
+.mainMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 195px;
+}
+.mainMenu li {
+  line-height: 1.05em;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.subItem {
+  font-size: 1em;
+  text-transform: none;
+  color: #c7b287;
+}
+.subItem:hover {
+  color: #606060;
+}
+
+.mainItem {
+  font-size: 1.05em;
+  text-transform: uppercase;
+  color: #606060;
+  border-bottom: 2px solid #c7b287;
+}
+.mainItem:hover {
+  color: #c7b287;
+}
