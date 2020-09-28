@@ -1,0 +1,74 @@
+.container {
+  margin-left: 40px;
+  margin-bottom: 90px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text01 {
+  width: 90%;
+  padding-top: 80px;
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #a89163;
+  text-align: center;
+}
+.text02 {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 1em;
+  line-height: 1.3em;
+  font-family: "MuseoSansCyrl-500";
+  color: #606060;
+  text-align: center;
+}
+.text03 {
+  margin-top: 90px;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-family: "Century";
+  color: #000;
+}
+.textContainer:first-child .text03 {
+  margin-top: 60px;
+}
+.tips {
+  margin-left: 90px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tip {
+  display: flex;
+}
+.number {
+  padding-bottom: 10px;
+  font-size: 5em;
+  line-height: 1.1;
+  vertical-align: bottom;
+  font-family: "Century";
+  color: #000;
+}
+.miniTextContainer {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.text04 {
+  font-family: "MuseoSansCyrl-500";
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.text05 {
+  font-family: "MuseoSansCyrl-500";
+  font-size: 1.04em;
+}
+.tips .tip:nth-child(2n) {
+  margin-left: 80px;
+}
