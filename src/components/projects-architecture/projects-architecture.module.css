@@ -1,0 +1,93 @@
+.container {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.text {
+  font-family: "MuseoSansCyrl-500";
+  font-size: 0.9em;
+  color: #606060;
+}
+
+.firstProject .text {
+  margin-bottom: 10px;
+}
+.firstProject .subContainer {
+  margin-top: 40px;
+  display: flex;
+}
+.firstProject .subContainer > div:first-child {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.firstProject .subContainer > div:first-child img {
+  margin-top: 80px;
+  width: 95%;
+  height: auto;
+}
+.firstProject .subContainer > div:first-child button {
+  margin-top: 35px;
+}
+.firstProject .subContainer > div:last-child {
+  width: 60%;
+  align-self: flex-end;
+}
+.firstProject .subContainer > div:last-child img {
+  width: 100%;
+  height: auto;
+}
+
+.secondProject {
+  margin-top: 70px;
+  margin-left: 50px;
+  padding: 50px 20px 40px 50px;
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+.secondProject button {
+  margin-top: 35px;
+}
+.secondProject .subContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondProject .subContainer .text {
+  width: 28%;
+  margin-bottom: 135px;
+}
+.secondProject .subContainer > div:last-child {
+  width: 68%;
+}
+.secondProject .subContainer > div:last-child img {
+  width: 100%;
+  height: auto;
+}
+
+.thirdProject {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+.thirdProject .subContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdProject .subContainer button {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.thirdProject .subContainer > div:first-child {
+  width: 50%;
+}
+.thirdProject .subContainer > div:last-child {
+  width: 48%;
+}
+.thirdProject .subContainer img {
+  width: 100%;
+  height: auto;
+}

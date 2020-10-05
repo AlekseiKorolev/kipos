@@ -16,6 +16,7 @@ import Footer from "./components/footer/footer.component";
 // pages
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
+import Projects from "./pages/projects/projects";
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            {/*<Redirect to="*" component={Home} />*/}
+            <Route path="/projects" component={Projects} />
+            <Redirect to="*" component={Home} />
           </Switch>
           <Calc />
           <Footer />

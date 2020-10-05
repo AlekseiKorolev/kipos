@@ -7,10 +7,14 @@ import classes from "./nav-menu.module.css";
 const mainMenu = [
   { key: "about", text: "о нас" },
   { key: "projects", text: "проекты" },
-  { key: "design", text: "дизайн" },
-  { key: "arch", text: "архитектура" },
-  { key: "land", text: "ландшафт" },
+  { key: "projects/design", text: "дизайн" },
+  { key: "projects/architecture", text: "архитектура" },
+  { key: "projects/landscape", text: "ландшафт" },
   { key: "services", text: "услуги" },
+  { key: "services/design", text: "дизайн" },
+  { key: "services/architecture", text: "архитектура" },
+  { key: "services/landscape", text: "ландшафт" },
+  { key: "services/implement", text: "реализация" },
   { key: "contacts", text: "контакты" },
   { key: "calc", text: "калькулятор" },
   { key: "order", text: "заказать проект" }
@@ -19,10 +23,21 @@ const mainMenu = [
 const NavMenu = ({ history }) => {
   const [active, setActive] = useState("");
 
+  const handleClick = path => {
+    history.push(`/${path}`);
+    setActive(path);
+  };
+
   useEffect(() => {
-    const newKey = history.location.pathname.substring(1);
-    setActive(newKey);
-  }, [history]);
+    let newPath = history.location.pathname;
+    if (newPath === "/projects" || newPath === "/services") {
+      newPath += "/design";
+      history.push(newPath);
+    }
+    if (newPath !== active) {
+      setActive(newPath);
+    }
+  }, [active, history, history.location.pathname]);
 
   return (
     <ul className={classes.mainMenu}>
@@ -30,16 +45,19 @@ const NavMenu = ({ history }) => {
         <li
           key={`navMenu${index}`}
           className={
-            index > 1 && index < 5
-              ? active === "projects"
+            item.key.includes("/")
+              ? (active.includes("projects") &&
+                  item.key.includes("projects")) ||
+                (active.includes("services") && item.key.includes("services"))
                 ? `${classes.subItem} ${
-                    item.key === active ? classes.subItemActive : ""
+                    active.includes(item.key) ? classes.subItemActive : ""
                   }`
                 : classes.subItemDisabled
               : `${classes.mainItem} ${
-                  item.key === active ? classes.mainItemActive : ""
+                  active.includes(item.key) ? classes.mainItemActive : ""
                 }`
           }
+          onClick={() => handleClick(item.key)}
         >
           {item.text}
         </li>
