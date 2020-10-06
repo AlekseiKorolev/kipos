@@ -1,0 +1,308 @@
+.container {
+  margin-top: 40px;
+}
+.text {
+  font-family: "MuseoSansCyrl-500";
+  font-size: 0.9em;
+  color: #606060;
+}
+
+.firstProject {
+  width: 97%;
+}
+.firstProject .header {
+  margin-left: 50px;
+}
+.firstProject .text {
+  width: 70%;
+  margin: 20px 0 0 50px;
+}
+.firstProject button {
+  margin: 40px 0 30px 50px;
+}
+.firstProject .subContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstProject .subContainer > div:first-child {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.firstProject .subContainer > div:first-child img {
+  margin-bottom: 60px;
+  width: 95%;
+  height: auto;
+}
+.firstProject .subContainer > div:last-child {
+  width: 45%;
+  align-self: flex-end;
+}
+.firstProject .subContainer > div:last-child img {
+  width: 100%;
+  height: auto;
+}
+
+.secondProject {
+  margin-left: 25px;
+  margin-top: 80px;
+  padding: 25px 20px;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+}
+.secondProject > div:first-child {
+  width: 42%;
+}
+.secondProject > div:first-child img {
+  width: 100%;
+  height: auto;
+}
+.secondProject > div:last-child {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.secondProject > div:last-child .text {
+  margin-top: 10px;
+  margin-bottom: 85px;
+  width: 85%;
+}
+.secondProject > div:last-child button {
+  margin-bottom: 15px;
+}
+
+.thirdProject {
+  margin-top: 90px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdProject > div:first-child {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.thirdProject > div:first-child .header {
+  margin-left: 20px;
+}
+.thirdProject > div:first-child .text {
+  width: 90%;
+  margin: 35px 0 0 10px;
+}
+.thirdProject > div:first-child button {
+  margin: 30px 0 35px 10px;
+}
+.thirdProject > div:first-child > div:last-child {
+  width: 96%;
+  align-self: flex-end;
+}
+.thirdProject > div:first-child img {
+  width: 100%;
+  height: auto;
+}
+.thirdProject > div:last-child {
+  width: 40%;
+  align-self: flex-start;
+}
+.thirdProject > div:last-child img {
+  margin-top: 5px;
+  width: 96%;
+  height: auto;
+}
+
+.fourthProject {
+  margin-left: 90px;
+  margin-top: 55px;
+  padding: 25px 40px 25px 30px;
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+}
+.fourthProject > div:first-child {
+  margin-left: 10px;
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fourthProject > div:first-child .text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 85%;
+}
+.fourthProject > div:last-child {
+  width: 47%;
+}
+.fourthProject > div:last-child img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.fifthProject {
+  margin-top: 85px;
+  margin-left: 15px;
+}
+.fifthProject .subContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.fifthProject .subContainer button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fifthProject .subContainer > div:first-child {
+  width: 52%;
+}
+.fifthProject .subContainer > div:first-child img {
+  width: 87%;
+  height: auto;
+}
+.fifthProject .subContainer > div:last-child {
+  margin-top: 5px;
+  width: 44%;
+  align-self: flex-start;
+}
+.fifthProject .subContainer > div:last-child img {
+  padding: 30px 20px;
+  width: 90%;
+  height: auto;
+  background-color: #ebebeb;
+}
+
+.sixthProject {
+  margin-left: 90px;
+  margin-top: 65px;
+  padding: 20px 25px 20px 25px;
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ebebeb;
+}
+.sixthProject > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.sixthProject > div:first-child > div:first-child {
+  width: 63%;
+}
+.sixthProject > div:first-child > div:first-child img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+.sixthProject > div:first-child > div:last-child {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sixthProject > div:first-child > div:last-child .text {
+  width: 90%;
+}
+.sixthProject > div:first-child > div:last-child .text:first-child {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sixthProject .header {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.seventhProject {
+  margin-top: 70px;
+  margin-left: 110px;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}
+.seventhProject > div:first-child {
+  width: 35%;
+  align-self: flex-start;
+}
+.seventhProject > div:first-child img {
+  margin-top: 20px;
+  padding: 30px 35px;
+  width: 90%;
+  height: auto;
+  background-color: #ebebeb;
+}
+.seventhProject > div:last-child {
+  margin-top: 10px;
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.seventhProject > div:last-child .header {
+  margin-left: 50px;
+}
+.seventhProject > div:last-child .text {
+  width: 70%;
+  margin: 45px 0 0 50px;
+}
+.seventhProject > div:last-child button {
+  margin: 40px 0 85px 50px;
+}
+.seventhProject > div:last-child > div:last-child {
+  width: 75%;
+  align-self: flex-start;
+}
+.seventhProject > div:last-child img {
+  width: 100%;
+  height: auto;
+}
+
+.eighthProject {
+  margin: 70px 0 60px 95px;
+  padding: 60px 40px 25px 30px;
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+.eighthProject .header {
+  margin-left: 10px;
+}
+.eighthProject .subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.eighthProject .subContainer > div:first-child {
+  margin-left: 10px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.eighthProject .subContainer > div:first-child button {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.eighthProject .subContainer > div:first-child .text {
+  margin-bottom: 20px;
+}
+.eighthProject .subContainer > div:last-child {
+  width: 63%;
+}
+.eighthProject .subContainer > div:last-child img {
+  margin-top: 30px;
+  margin-left: 5px;
+  width: 100%;
+  height: auto;
+}

@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import classes from "./nav-logo.module.css";
 import logoMain from "../../images/logoMain.png";
 import logoArch from "../../images/logoArch.png";
-import logoDesign from "../../images/logoMain.png";
+import logoDesign from "../../images/logoDesign.png";
 import logoLand from "../../images/logoMain.png";
 
 const NavLogo = ({ history }) => {
