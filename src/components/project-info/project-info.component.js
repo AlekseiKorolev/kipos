@@ -5,7 +5,7 @@ import classes from "./project-info.module.css";
 // components
 import ProjectTitle from "../project-title/project-title.component";
 import ProjectSlideShow from "../project-slide-show/project-slide-show.component";
-import WatchProjectButton from "../watch-project-button/watch-project-button.component";
+import ViewProjectButton from "../view-project-button/view-project-button.component";
 
 // emulation of data
 const project = {
@@ -21,7 +21,7 @@ const ProjectInfo = () => {
       <ProjectTitle title={project.title} caption={project.caption} uppercase />
       <div className={classes.projectPreview}>
         <div>
-          <WatchProjectButton />
+          <ViewProjectButton />
         </div>
         <ProjectSlideShow />
       </div>

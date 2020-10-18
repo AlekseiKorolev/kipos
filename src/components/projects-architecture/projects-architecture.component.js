@@ -6,7 +6,7 @@ import { projects } from "./projects-architecture.util";
 
 // components
 import ProjectTitle from "../project-title/project-title.component";
-import WatchProjectButton from "../watch-project-button/watch-project-button.component";
+import ViewProjectButton from "../view-project-button/view-project-button.component";
 
 const loadImage = fileName => {
   return require(`../../images/projects/arch/preview/${fileName}`);
@@ -26,7 +26,7 @@ const ProjectsArchitecture = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[0].text}</div>
-            <WatchProjectButton />
+            <ViewProjectButton path={projects[0].path} />
             <div>
               <img src={loadImage(projects[0].urls[0])} alt="project" />
             </div>
@@ -45,7 +45,7 @@ const ProjectsArchitecture = () => {
               caption={projects[1].caption}
             />
           </div>
-          <WatchProjectButton />
+          <ViewProjectButton path={projects[1].path} />
         </div>
         <div className={classes.subContainer}>
           <div className={classes.text}>{projects[1].text}</div>
@@ -65,7 +65,7 @@ const ProjectsArchitecture = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[2].text}</div>
-            <WatchProjectButton />
+            <ViewProjectButton path={projects[2].path} />
             <div>
               <img src={loadImage(projects[2].urls[0])} alt="project" />
             </div>

@@ -24,3 +24,6 @@
 .uppercase {
   text-transform: uppercase;
 }
+.square {
+  font-size: 1.25em;
+}

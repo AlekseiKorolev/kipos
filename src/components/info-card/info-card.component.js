@@ -1,8 +1,15 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 import classes from "./info-card.module.css";
 
 const InfoCard = ({ card }) => {
+  const history = useHistory();
+
+  const handleClick = path => {
+    history.push(path);
+  };
+
   return (
     <div className={classes.container}>
       <div
@@ -17,7 +24,9 @@ const InfoCard = ({ card }) => {
           <div key={`cardText${index}`}>{text}</div>
         ))}
       </div>
-      <div className={classes.link}>смотреть проекты</div>
+      <div className={classes.link} onClick={() => handleClick(card.path)}>
+        смотреть проекты
+      </div>
     </div>
   );
 };

@@ -1,0 +1,124 @@
+.container {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+
+.firstBlock {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstBlock .left {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+}
+.firstBlock .left div:first-child {
+  margin-top: 20px;
+}
+.firstBlock .left div:last-child {
+  margin-top: 20px;
+  line-height: 1.3em;
+}
+.firstBlock .right {
+  margin-top: 10px;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+.firstBlock .right img {
+  width: 100%;
+}
+.firstBlock .right div {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.secondBlock {
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+}
+.secondBlock div:first-child {
+  max-width: 25%;
+  position: absolute;
+  top: 10px;
+  text-align: left;
+}
+.secondBlock div:nth-child(2) {
+  max-width: 25%;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  text-align: left;
+}
+.secondBlock img {
+  margin-top: 5px;
+  margin-right: 165px;
+  width: 67%;
+}
+
+.thirdBlock {
+  margin-top: 45px;
+  width: 55%;
+}
+
+.fourthBlock {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.fourthBlock img {
+  width: 48.5%;
+}
+.fourthBlock img:last-child {
+  margin-right: 10px;
+}
+
+.fifthBlock {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fifthBlock div {
+  display: flex;
+  flex-direction: column;
+}
+.fifthBlock div:first-child {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+}
+.fifthBlock div:first-child div:first-child {
+  width: 100%;
+}
+.fifthBlock div:first-child img {
+  margin-top: 60px;
+  width: 85%;
+}
+.fifthBlock div:first-child div:last-child {
+  margin-top: 10px;
+  align-items: center;
+  width: 85%;
+}
+.fifthBlock div:nth-child(2) {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.fifthBlock div:nth-child(2) img {
+  width: 70%;
+}
+.fifthBlock div:nth-child(2) div {
+  margin-top: 10px;
+  align-items: center;
+  width: 70%;
+}
+
+.projectsLink {
+  margin: 30px auto 20px auto;
+}

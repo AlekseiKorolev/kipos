@@ -6,7 +6,7 @@ import { projects } from "./projects-design.util";
 
 // components
 import ProjectTitle from "../project-title/project-title.component";
-import WatchProjectButton from "../watch-project-button/watch-project-button.component";
+import ViewProjectButton from "../view-project-button/view-project-button.component";
 
 const loadImage = fileName => {
   return require(`../../images/projects/design/preview/${fileName}`);
@@ -26,7 +26,7 @@ const ProjectsDesign = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[0].text}</div>
-            <WatchProjectButton />
+            <ViewProjectButton />
             <div>
               <img src={loadImage(projects[0].urls[0])} alt="project" />
             </div>
@@ -49,7 +49,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[1].text}</div>
-          <WatchProjectButton />
+          <ViewProjectButton />
         </div>
       </div>
       {/* third */}
@@ -62,7 +62,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[2].text}</div>
-          <WatchProjectButton />
+          <ViewProjectButton />
           <div>
             <img src={loadImage(projects[2].urls[0])} alt="project" />
           </div>
@@ -81,7 +81,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[3].text}</div>
-          <WatchProjectButton />
+          <ViewProjectButton />
         </div>
         <div>
           <img src={loadImage(projects[3].urls[0])} alt="project" />
@@ -98,7 +98,7 @@ const ProjectsDesign = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[4].text}</div>
-            <WatchProjectButton />
+            <ViewProjectButton />
             <div>
               <img src={loadImage(projects[4].urls[0])} alt="project" />
             </div>
@@ -125,7 +125,7 @@ const ProjectsDesign = () => {
             caption={projects[5].caption}
           />
         </div>
-        <WatchProjectButton />
+        <ViewProjectButton />
       </div>
       {/* seventh */}
       <div className={classes.seventhProject}>
@@ -140,7 +140,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[6].text}</div>
-          <WatchProjectButton />
+          <ViewProjectButton />
           <div>
             <img src={loadImage(projects[6].urls[0])} alt="project" />
           </div>
@@ -156,7 +156,7 @@ const ProjectsDesign = () => {
         </div>
         <div className={classes.subContainer}>
           <div>
-            <WatchProjectButton />
+            <ViewProjectButton />
             <div className={classes.text}>{projects[7].text[0]}</div>
             <div className={classes.text}>{projects[7].text[1]}</div>
             <div className={classes.text}>{projects[7].text[2]}</div>

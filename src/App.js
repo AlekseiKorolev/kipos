@@ -1,11 +1,6 @@
 import React from "react";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import classes from "./App.module.css";
 
@@ -13,10 +8,11 @@ import classes from "./App.module.css";
 import Nav from "./components/nav/nav.component";
 import Calc from "./components/calc/calc.component";
 import Footer from "./components/footer/footer.component";
+// container
+import ProjectsContainer from "./components/projects-container/projects-container";
 // pages
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
-import Projects from "./pages/projects/projects";
 
 const App = () => {
   return (
@@ -30,8 +26,8 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/projects" component={Projects} />
-            <Redirect to="*" component={Home} />
+            <Route path="/projects" component={ProjectsContainer} />
+            <Route path="*" component={Home} />
           </Switch>
           <Calc />
           <Footer />

@@ -1,0 +1,134 @@
+.container {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+
+.firstBlock {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstBlock .left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.firstBlock .left div:first-child {
+  margin-top: 20px;
+}
+.firstBlock .left div:last-child {
+  margin-top: 20px;
+  line-height: 1.3em;
+}
+.firstBlock .right {
+  margin-top: 100px;
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+}
+.firstBlock .right img {
+  width: 100%;
+}
+.firstBlock .right div {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.secondBlock {
+  margin-top: 155px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondBlock div:first-child {
+  margin-bottom: 60px;
+  padding-right: 25px;
+  width: 25%;
+}
+.secondBlock img {
+  padding-right: 5.5%;
+  width: 41%;
+}
+.secondBlock div:last-child {
+  margin-bottom: 50px;
+  max-width: 24%;
+}
+
+.thirdBlock {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdBlock img {
+  margin-right: 45px;
+  width: 78%;
+}
+.thirdBlock div {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.fourthBlock {
+  margin-top: 45px;
+  margin-left: -30px;
+  width: 55%;
+}
+
+.fifthBlock {
+  margin-top: 70px;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifthBlock img:first-child {
+  width: 60%;
+}
+
+.fifthBlock img:nth-child(2) {
+  margin-bottom: 30px;
+  width: 36.5%;
+}
+
+.sixthBlock {
+  margin-top: 65px;
+  margin-left: -25px;
+  display: flex;
+  justify-content: space-between;
+}
+.sixthBlock div:first-child {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.sixthBlock div:first-child img {
+  width: 100%;
+}
+.sixthBlock div:first-child div {
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+}
+.sixthBlock div:nth-child(2) {
+  margin-right: 10px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.sixthBlock div:nth-child(2) img {
+  width: 100%;
+}
+.sixthBlock div:nth-child(2) div {
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.projectsLink {
+  margin: 30px auto 20px auto;
+}
