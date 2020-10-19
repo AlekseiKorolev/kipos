@@ -1,0 +1,152 @@
+.container {
+  margin-top: 35px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+
+.firstBlock {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstBlock > div:first-child {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.firstBlock > div:first-child div:first-child {
+  margin-top: 75px;
+}
+.firstBlock > div:first-child div:nth-child(2) {
+  margin-top: 20px;
+  line-height: 1.3em;
+}
+.firstBlock > div:first-child img {
+  margin-top: 75px;
+  margin-left: 25px;
+  width: 60%;
+  align-self: center;
+}
+.firstBlock > div:first-child div:last-child {
+  margin-top: 25px;
+  margin-left: 25px;
+  align-self: center;
+}
+.firstBlock > div:last-child {
+  margin-right: 6%;
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstBlock > div:last-child img {
+  width: 100%;
+}
+.firstBlock > div:last-child div {
+  margin-top: 20px;
+}
+
+.secondBlock {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondBlock div:first-child {
+  width: 23%;
+  margin-bottom: 10px;
+  margin-left: -20px;
+}
+.secondBlock div:last-child {
+  width: 23%;
+  margin-bottom: 10px;
+}
+.secondBlock img {
+  width: 48%;
+  margin-right: 10px;
+}
+
+.thirdBlock {
+  margin-top: 55px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdBlock div {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdBlock div img {
+  width: 100%;
+}
+.thirdBlock div div {
+  margin-top: 20px;
+}
+
+.fourthBlock {
+  margin-top: 70px;
+  margin-left: -15px;
+  width: 63%;
+}
+
+.fifthBlock {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fifthBlock div:first-child {
+  margin-top: 35px;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+}
+.fifthBlock > div:first-child img {
+  margin-left: -20px;
+  width: 100%;
+}
+.fifthBlock div:first-child div {
+  margin-top: 15px;
+  align-self: center;
+}
+.fifthBlock > img {
+  margin-right: 50px;
+  margin-bottom: 10px;
+  width: 24%;
+  align-self: center;
+}
+
+.sixthBlock {
+  margin-top: 100px;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sixthBlock > div:first-child {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sixthBlock > div:last-child {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sixthBlock div img {
+  width: 100%;
+}
+.sixthBlock div div {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.projectsLink {
+  margin: 30px auto 20px auto;
+}

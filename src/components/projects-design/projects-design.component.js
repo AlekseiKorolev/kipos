@@ -26,7 +26,7 @@ const ProjectsDesign = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[0].text}</div>
-            <ViewProjectButton />
+            <ViewProjectButton path={projects[0].path} />
             <div>
               <img src={loadImage(projects[0].urls[0])} alt="project" />
             </div>
@@ -49,7 +49,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[1].text}</div>
-          <ViewProjectButton />
+          <ViewProjectButton path={projects[1].path} />
         </div>
       </div>
       {/* third */}
@@ -62,7 +62,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[2].text}</div>
-          <ViewProjectButton />
+          <ViewProjectButton path={projects[2].path} />
           <div>
             <img src={loadImage(projects[2].urls[0])} alt="project" />
           </div>
@@ -81,7 +81,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[3].text}</div>
-          <ViewProjectButton />
+          <ViewProjectButton path={projects[3].path} />
         </div>
         <div>
           <img src={loadImage(projects[3].urls[0])} alt="project" />
@@ -98,7 +98,7 @@ const ProjectsDesign = () => {
         <div className={classes.subContainer}>
           <div>
             <div className={classes.text}>{projects[4].text}</div>
-            <ViewProjectButton />
+            <ViewProjectButton path={projects[4].path} />
             <div>
               <img src={loadImage(projects[4].urls[0])} alt="project" />
             </div>
@@ -125,7 +125,7 @@ const ProjectsDesign = () => {
             caption={projects[5].caption}
           />
         </div>
-        <ViewProjectButton />
+        <ViewProjectButton path={projects[5].path} />
       </div>
       {/* seventh */}
       <div className={classes.seventhProject}>
@@ -140,7 +140,7 @@ const ProjectsDesign = () => {
             />
           </div>
           <div className={classes.text}>{projects[6].text}</div>
-          <ViewProjectButton />
+          <ViewProjectButton path={projects[6].path} />
           <div>
             <img src={loadImage(projects[6].urls[0])} alt="project" />
           </div>
@@ -156,7 +156,7 @@ const ProjectsDesign = () => {
         </div>
         <div className={classes.subContainer}>
           <div>
-            <ViewProjectButton />
+            <ViewProjectButton path={projects[7].path} />
             <div className={classes.text}>{projects[7].text[0]}</div>
             <div className={classes.text}>{projects[7].text[1]}</div>
             <div className={classes.text}>{projects[7].text[2]}</div>

@@ -21,31 +21,52 @@ const ArchVladimir = () => {
           <div>{data.text2}</div>
         </div>
         <div className={classes.right}>
-          <img src={loadImage(data.urls[0])} alt="проект Нелжа" />
+          <img
+            src={loadImage(data.urls[0])}
+            alt="проект Павильон Владимирская область"
+          />
         </div>
       </div>
       <div className={classes.secondBlock}>
         <div>{data.text3}</div>
-        <img src={loadImage(data.urls[1])} alt="проект Нелжа" />
+        <img
+          src={loadImage(data.urls[1])}
+          alt="проект Павильон Владимирская область"
+        />
         <div>{data.text4}</div>
       </div>
       <div className={classes.thirdBlock}>
-        <img src={loadImage(data.urls[2])} alt="проект Нелжа" />
+        <img
+          src={loadImage(data.urls[2])}
+          alt="проект Павильон Владимирская область"
+        />
         <div>{data.text5}</div>
       </div>
       <div className={classes.fourthBlock}>{data.text6}</div>
 
       <div className={classes.fifthBlock}>
-        <img src={loadImage(data.urls[3])} alt="проект Нелжа" />
-        <img src={loadImage(data.urls[4])} alt="проект Нелжа" />
+        <img
+          src={loadImage(data.urls[3])}
+          alt="проект Павильон Владимирская область"
+        />
+        <img
+          src={loadImage(data.urls[4])}
+          alt="проект Павильон Владимирская область"
+        />
       </div>
       <div className={classes.sixthBlock}>
         <div>
-          <img src={loadImage(data.urls[5])} alt="проект Нелжа" />
+          <img
+            src={loadImage(data.urls[5])}
+            alt="проект Павильон Владимирская область"
+          />
           <div>{data.text7}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[6])} alt="проект Нелжа" />
+          <img
+            src={loadImage(data.urls[6])}
+            alt="проект Павильон Владимирская область"
+          />
           <div>{data.text8}</div>
         </div>
       </div>

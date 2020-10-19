@@ -1,3 +1,8 @@
+import radiobarData from "../project-design-radiobar/radiobar.util";
+import bogdanovoData from "../project-design-bogdanovo/bogdanovo.util";
+import leskovoData from "../project-design-leskovo/leskovo.util";
+import millenniumData from "../project-design-millennium/millennium.util";
+
 export const projects = [
   {
     title: "Гостевой дом во Владимирской области",
@@ -8,11 +13,10 @@ export const projects = [
     urls: ["first01.png", "first02.png"]
   },
   {
-    title: "Загородный дом в поселке Богданово",
-    caption: "площадь объекта: 136 м2",
-    text:
-      "Интерьер просторного загородного дома разрабатывался для семьи с двумя взрослями детьми. Важно было учесть все пожелания и создать одно целостное композиционное пространство, в котором будет комфортно находиться всем членам семьи",
-    path: "",
+    title: bogdanovoData.title,
+    caption: bogdanovoData.caption,
+    text: bogdanovoData.text2,
+    path: "/projects/design/bogdanovo",
     urls: ["second01.png"]
   },
   {
@@ -32,29 +36,24 @@ export const projects = [
     urls: ["fourth01.png"]
   },
   {
-    title: 'Интерьер винного ресторана "Radiobar"',
-    caption: "площадь объекта: 146 м2",
-    text:
-      'Атмосферный Ресторан "Radiobar" находится в центре Воронежа и функционирует уже больше года. Тематика ресторана формировалась из пожеланий заказчиков и их предпочтений. органические материалы, минимализм и много света - концепция этого проекта.',
-    path: "",
+    title: radiobarData.title,
+    caption: radiobarData.caption,
+    text: radiobarData.text2,
+    path: "/projects/design/radiobar",
     urls: ["fifth01.png", "fifth02.png"]
   },
   {
-    title: "Резиденция в элитном поселке Миллениум парк",
-    caption: "площадь объекта: 695 м2",
-    text: [
-      "Интерьер загородного дома создавался для молодой семьи, их родителей и гостей. Люксовая направленность оформления пространства обусловлена желаниями заказчика и его видением будущего дома. Большая площадь резиденции позволила организовать несколько зон: гостевую, приватную зону отдыха с хамамом и спортзалом.",
-      "Пространство кухни-гостиной со вторым светом и большой площадью остекления дало возможность обыграть площадь интересной композицией с роскошной люстрой и обеденной зоной. Анфиладная система планировки создает атмосферные перетекающие друг в друга комнаты, которые вместе организуют функциональную общественную зону."
-    ],
-    path: "",
+    title: millenniumData.title,
+    caption: millenniumData.caption,
+    text: [millenniumData.text2, millenniumData.text5],
+    path: "/projects/design/millennium",
     urls: ["sixth01.png"]
   },
   {
-    title: "Уютный дом в коттеджном поселке Лесково",
-    caption: "площадь объекта: 132 м2",
-    text:
-      "Таунхаус находится в пригороде Воронежа, в окружении природы и леса. Проект создавался для семьи, которая собирается проживать здесь постоянно. На нескольких этажах расположились общие зоны с кухней-гостиной и прихожей, спальни хозяев и их ребенка, а также большая зона отдыха в цокольном этаже.",
-    path: "",
+    title: leskovoData.title,
+    caption: leskovoData.caption,
+    text: leskovoData.text2,
+    path: "/projects/design/leskovo",
     urls: ["seventh01.png", "seventh02.png"]
   },
   {
