@@ -2,6 +2,8 @@ import radiobarData from "../project-design-radiobar/radiobar.util";
 import bogdanovoData from "../project-design-bogdanovo/bogdanovo.util";
 import leskovoData from "../project-design-leskovo/leskovo.util";
 import millenniumData from "../project-design-millennium/millennium.util";
+import nikitinskayData from "../project-design-nikitinskay/nikitinskay.util";
+import olimpData from "../project-design-olimp/olimp.util";
 
 export const projects = [
   {
@@ -20,19 +22,17 @@ export const projects = [
     urls: ["second01.png"]
   },
   {
-    title: 'Квартира в ЖК "Солнечный Олимп"',
-    caption: "площадь объекта: 84 м2",
-    text:
-      "Элегантные апартаменты в новом жилом комплексе бизнес-класса в Воронеже. Светлый интерьер с нотками классики создавался для супружеской пары. Заказчики отдают предпочтение простым формам, качественным дорогим материалам и функциональной мебели и предметам освещения классичиской стилистики.",
-    path: "",
+    title: olimpData.title,
+    caption: olimpData.caption,
+    text: olimpData.text2,
+    path: "/projects/design/olimp",
     urls: ["third01.png", "third02.png"]
   },
   {
-    title: "Красочная квартира в центре Воронежа",
-    caption: "площадь объекта: 106 м2",
-    text:
-      "Квартира для семьи из двух человек. В задачу входило увеличить количество существующих жилых комнат и организовать уютное пространство для хозяев, которые проводят много времени дома",
-    path: "",
+    title: nikitinskayData.title,
+    caption: nikitinskayData.caption,
+    text: nikitinskayData.text2,
+    path: "/projects/design/nikitinskay",
     urls: ["fourth01.png"]
   },
   {

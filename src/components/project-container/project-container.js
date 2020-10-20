@@ -10,6 +10,8 @@ import DesignRadiobar from "../project-design-radiobar/project-design-radiobar.c
 import DesignBogdanovo from "../project-design-bogdanovo/project-design-bogdanovo.component";
 import DesignLeskovo from "../project-design-leskovo/project-design-leskovo.component";
 import DesignMillennium from "../project-design-millennium/project-design-millennium.component";
+import DesignNikitinskay from "../project-design-nikitinskay/project-design-nikitinskay.component";
+import DesignOlimp from "../project-design-olimp/project-design-olimp.component";
 
 const ProjectContainer = ({ match }) => {
   return (
@@ -26,6 +28,8 @@ const ProjectContainer = ({ match }) => {
       <Route path={`${match.path}/radiobar`} component={DesignRadiobar} />
       <Route path={`${match.path}/leskovo`} component={DesignLeskovo} />
       <Route path={`${match.path}/millennium`} component={DesignMillennium} />
+      <Route path={`${match.path}/nikitinskay`} component={DesignNikitinskay} />
+      <Route path={`${match.path}/olimp`} component={DesignOlimp} />
     </div>
   );
 };
