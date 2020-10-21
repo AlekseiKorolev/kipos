@@ -4,14 +4,15 @@ import leskovoData from "../project-design-leskovo/leskovo.util";
 import millenniumData from "../project-design-millennium/millennium.util";
 import nikitinskayData from "../project-design-nikitinskay/nikitinskay.util";
 import olimpData from "../project-design-olimp/olimp.util";
+import vladimirData from "../project-design-vladimir/vladimir.util";
+import ramonData from "../project-design-ramon/ramon.util";
 
 export const projects = [
   {
-    title: "Гостевой дом во Владимирской области",
-    caption: "площадь объекта: 158 м2",
-    text:
-      "Павильон на большом участке вблизи леса предназначается для временного проживания и приема гостей. Проект создавался для семейной пары, которая отдает предпочтение органической архитектуре, натуральным материалам в отделке и мебели, любит простор и воздух в интерьере",
-    path: "",
+    title: vladimirData.title,
+    caption: vladimirData.caption,
+    text: vladimirData.text2,
+    path: "/projects/design/vladimir",
     urls: ["first01.png", "first02.png"]
   },
   {
@@ -57,14 +58,10 @@ export const projects = [
     urls: ["seventh01.png", "seventh02.png"]
   },
   {
-    title: "Небольшой частный дом в Рамони",
-    caption: "площадь объекта: 66 м2",
-    text: [
-      "Коттедж в Рамонском районе Воронежской области для семьи с ребенком. Несмотря на маленькую площадь проектирования нам удалось предусмотреть все необходимые помещения в достаточном объеме.",
-      "Контрастная цветовая палитра с сочными оттенками в сочетании с минималистичным дизайном мебели, текстилем и декором делает интерьер дома атмосферным и индивидуальным.",
-      "В доме комфортно расположились две спальни, гостиная и кухня с обеденной зоной, также удалось выделить вместительную прихожую с естественным светом и раздельный санузел."
-    ],
-    path: "",
+    title: ramonData.title,
+    caption: ramonData.caption,
+    text: [ramonData.text2, ramonData.text5, ramonData.text6],
+    path: "/projects/design/ramon",
     urls: ["eighth01.png"]
   }
 ];
