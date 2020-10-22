@@ -6,7 +6,7 @@ import classes from "./nav-logo.module.css";
 import logoMain from "../../images/logoMain.png";
 import logoArch from "../../images/logoArch.png";
 import logoDesign from "../../images/logoDesign.png";
-import logoLand from "../../images/logoMain.png";
+import logoLand from "../../images/logoLand.png";
 
 const NavLogo = ({ history }) => {
   const [logo, setLogo] = useState(logoMain);

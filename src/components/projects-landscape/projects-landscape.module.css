@@ -1,0 +1,117 @@
+.container {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.text {
+  font-family: "MuseoSansCyrl-500";
+  font-size: 0.9em;
+  color: #606060;
+}
+
+.firstProject {
+  margin-top: 80px;
+  margin-left: 50px;
+  padding: 50px 20px 40px 50px;
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+.firstProject .header {
+  margin-top: -5px;
+}
+.firstProject .subContainer {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstProject .subContainer > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 28%;
+}
+.firstProject .subContainer > div:first-child .text {
+  margin-top: 130px;
+}
+.firstProject button {
+  align-self: center;
+}
+.firstProject .subContainer > img {
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 67%;
+}
+
+.secondProject {
+  margin-left: -10px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+.secondProject > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.secondProject > div:last-child > div {
+  margin-top: 40px;
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.secondProject > div:last-child > div > button {
+  margin-top: 40px;
+}
+.secondProject > div:last-child > div > img {
+  margin-top: 75px;
+  width: 98%;
+  height: auto;
+}
+.secondProject > div > img {
+  margin-right: 15px;
+  width: 55%;
+  align-self: flex-start;
+}
+
+.thirdProject {
+  margin: 70px 105px 60px 45px;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+.thirdProject > div:first-child {
+  margin-right: 20px;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.thirdProject > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.thirdProject > div:last-child > img {
+  margin-top: 45px;
+  margin-left: 10px;
+  width: 68%;
+  height: auto;
+}
+.thirdProject > div:last-child > div {
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.thirdProject > div > div:last-child .text {
+  margin-top: 110px;
+  margin-bottom: 85px;
+  width: 90%;
+}
+.thirdProject > div > div:last-child button {
+  margin-bottom: 5px;
+  align-self: center;
+}
