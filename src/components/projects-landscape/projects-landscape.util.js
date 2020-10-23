@@ -1,13 +1,12 @@
 import vladimirData from "../project-land-vladimir/vladimir.util";
+import polyanaData from "../project-land-polyana/polyana.util";
+import leskovoData from "../project-land-leskovo/leskovo.util";
 
 export default [
   {
-    title: "Оформление участка в поселке Лесково",
+    title: leskovoData.title,
     caption: "",
-    text: [
-      "Наша студия разработала решение для организации дворового пространства около современного коттеджа в поселке Лесково под Воронежем.",
-      "Небольшая баня и летняя кухня находятся в обрамлении густой зелени, которая создает приватное пространство и отделяет от посторонних взглядов. Это место предназначено для семейного отдыха, который всегда будет приятным и комфортным благодаря грамотной организации."
-    ],
+    text: [leskovoData.text2, leskovoData.text3],
     path: "/projects/landscape/leskovo",
     urls: ["first01.png"]
   },
@@ -19,10 +18,9 @@ export default [
     urls: ["second01.png", "second02.png"]
   },
   {
-    title: 'Двор дома в квартале "Заячья Поляна"',
+    title: polyanaData.title,
     caption: "",
-    text:
-      "Это проект подтверждает, что даже маленькая прилегающая к дому территория может стать полноценной зоной отдыха с беседкой, открытым огнем, искусственным водоемом и композицией хвойных растений.",
+    text: polyanaData.text2,
     path: "/projects/landscape/polyana",
     urls: ["third01.png"]
   }

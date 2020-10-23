@@ -1,0 +1,124 @@
+.container {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+
+.firstBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.firstBlock > div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3em;
+}
+.firstBlock > div div:first-child {
+  margin-top: 45px;
+}
+.firstBlock > div div:nth-child(2) {
+  margin-top: 20px;
+}
+.firstBlock > img {
+  margin-top: 45px;
+  width: 74%;
+  align-self: center;
+}
+
+.secondBlock {
+  margin-top: 90px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondBlock img {
+  margin-right: 20px;
+  width: 63%;
+}
+.secondBlock div {
+  margin-top: 20px;
+}
+
+.thirdBlock {
+  margin-top: 30px;
+  margin-left: -15px;
+  width: 70%;
+  line-height: 1.3em;
+}
+
+.fourthBlock {
+  margin-top: 45px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourthBlock img:first-child {
+  width: 50%;
+}
+.fourthBlock img:nth-child(2) {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 44%;
+}
+
+.fifthBlock {
+  margin-top: 35px;
+  margin-left: -15px;
+  width: 74%;
+  line-height: 1.3em;
+}
+
+.sixthBlock {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.sixthBlock > div {
+  margin-right: 50px;
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+}
+.sixthBlock > div img {
+  width: 100%;
+}
+.sixthBlock > div div {
+  margin-top: 20px;
+  align-self: center;
+}
+
+.seventhBlock {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.seventhBlock > img:first-child {
+  width: 51%;
+}
+.seventhBlock > div {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.seventhBlock > div img:first-child {
+  margin-right: 25px;
+  width: 83%;
+}
+.seventhBlock > div img:nth-child(2) {
+  margin-top: 45px;
+  margin-right: 85px;
+  width: 83%;
+}
+
+.projectsLink {
+  margin: 30px auto 20px auto;
+}

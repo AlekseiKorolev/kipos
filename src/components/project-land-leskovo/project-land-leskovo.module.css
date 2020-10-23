@@ -1,0 +1,95 @@
+.container {
+  margin-top: 30px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+
+.firstBlock {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstBlock > div {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3em;
+}
+.firstBlock > div div:first-child {
+  margin-top: 20px;
+}
+.firstBlock > div div:nth-child(2) {
+  margin-top: 20px;
+}
+.firstBlock > img {
+  margin-top: 20px;
+  width: 74%;
+  align-self: center;
+}
+
+.secondBlock {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secondBlock img {
+  margin-right: 40px;
+  width: 63%;
+}
+.secondBlock div {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.thirdBlock {
+  margin-top: 20px;
+  margin-left: -10px;
+  width: 55%;
+  line-height: 1.3em;
+}
+
+.fourthBlock {
+  margin-top: 40px;
+  margin-left: -20px;
+  margin-right: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourthBlock > div div {
+  margin-top: 25px;
+  align-self: center;
+}
+.fourthBlock > div:first-child {
+  width: 55.5%;
+  display: flex;
+  flex-direction: column;
+}
+.fourthBlock > div:first-child img {
+  width: 100%;
+}
+.fourthBlock > div:nth-child(2) {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+}
+.fourthBlock > div:nth-child(2) img {
+  width: 100%;
+}
+
+.fifthBlock {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  width: 55%;
+  line-height: 1.3em;
+}
+
+.projectsLink {
+  margin: 30px auto 20px auto;
+}
