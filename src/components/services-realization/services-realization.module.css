@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textBlock {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textBlock > div:first-child {
+  margin-top: 45px;
+  margin-bottom: 5px;
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #a89163;
+  text-transform: uppercase;
+}
+.textBlock > div:nth-child(1n + 2) {
+  width: 93%;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  color: #606060;
+  text-align: center;
+}
+.textBlock > div:nth-child(2),
+.textBlock > div:nth-child(3) {
+  font-size: 1em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.textBlock > div:nth-child(4) {
+  margin-top: 20px;
+}
+
+.textLast {
+  margin-top: 60px;
+  width: 60%;
+  font-size: 1.3em;
+  align-self: center;
+  text-align: center;
+  color: #606060;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+.details .detailsTitle {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.details .detailsText {
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+.details .verticalSlider {
+  display: flex;
+  flex-direction: row;
+}
+.details .verticalSlider > div:last-child {
+  border-left: 2px solid #5b5b5b;
+}
+.details .verticalSlider > div:first-child {
+  z-index: 2;
+  margin-right: -10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #a89163;
+  align-self: center;
+}
+.details .subList {
+  padding: 0;
+  list-style: none;
+  font-size: 1.05em;
+  line-height: 1.25em;
+}
+
+.details .firstBlock {
+  margin-top: 90px;
+  margin-left: -15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .firstBlock > div:first-child {
+  margin-right: 5px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.details .firstBlock > div:first-child > div {
+  display: flex;
+  flex-direction: row;
+}
+.details .firstBlock > div:first-child > div > div:first-child {
+  width: 30%;
+}
+.details .firstBlock > div:first-child > div > div:nth-child(2) {
+  width: 8%;
+}
+.details .firstBlock > div:first-child > div > div:last-child {
+  width: 55%;
+}
+.details .firstBlock > div:first-child > div .detailsText {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.details .firstBlock > div:first-child > div .detailsTitle {
+  padding-top: 15px;
+}
+.details .firstBlock > div:first-child > div:last-child {
+  margin-top: 25px;
+}
+.details .firstBlock > div:first-child > div:last-child .detailsText {
+  padding-bottom: 30px;
+}
+.details .firstBlock > div:first-child > div:last-child .detailsTitle {
+  padding-top: 20px;
+}
+
+.details .secondBlock {
+  margin-top: 50px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .secondBlock > div:last-child {
+  margin-right: 10px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.details .secondBlock > div:last-child > div {
+  display: flex;
+  flex-direction: row;
+}
+.details .secondBlock > div:last-child > div > div:first-child {
+  width: 31%;
+}
+.details .secondBlock > div:last-child > div > div:nth-child(2) {
+  width: 7%;
+}
+.details .secondBlock > div:last-child > div > div:last-child {
+  width: 58%;
+}
+
+.details .secondBlock > div:last-child > div:first-child .detailsTitle {
+  margin-top: 25px;
+}
+.details .secondBlock > div:last-child > div:first-child .detailsText {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.details .secondBlock > div:last-child > div:nth-child(2) {
+  margin-top: 75px;
+}
+
+.details .secondBlock > div:last-child > div:last-child {
+  margin-top: 75px;
+}
+.details .secondBlock > div:last-child > div:last-child .detailsTitle {
+  margin-top: 15px;
+}
+.details .secondBlock > div:last-child > div:last-child .detailsText {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}

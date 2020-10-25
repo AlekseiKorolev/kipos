@@ -14,7 +14,7 @@ const mainMenu = [
   { key: "services/design", text: "дизайн" },
   { key: "services/architecture", text: "архитектура" },
   { key: "services/landscape", text: "ландшафт" },
-  { key: "services/implement", text: "реализация" },
+  { key: "services/realization", text: "реализация" },
   { key: "contacts", text: "контакты" },
   { key: "calc", text: "калькулятор" },
   { key: "order", text: "заказать проект" }

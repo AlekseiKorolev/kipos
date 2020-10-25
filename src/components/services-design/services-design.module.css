@@ -1,0 +1,380 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textBlock {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textBlock > div:first-child {
+  margin-top: 45px;
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #a89163;
+  text-transform: uppercase;
+}
+.textBlock > div:nth-child(1n + 2) {
+  width: 89%;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  color: #606060;
+  text-align: center;
+}
+.textBlock > div:nth-child(2) {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.textBlock > div:nth-child(3) {
+  margin-top: 35px;
+}
+.textBlock > div:nth-child(5) {
+  margin-top: 20px;
+}
+.textBlock > div:nth-child(6) {
+  margin-top: 25px;
+}
+.textBlock > div:nth-child(7) {
+  margin-top: 5px;
+  width: 45%;
+  font-size: 1em;
+}
+
+.stepsBlock {
+  margin-top: 65px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.stepsBlock > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.stepsBlock > div:first-child {
+  margin-top: 75px;
+  width: 44%;
+}
+.stepsBlock > div:first-child img {
+  width: 100%;
+}
+.stepsBlock > div:first-child img:last-child {
+  margin-bottom: 90px;
+}
+.stepsBlock > div:last-child {
+  margin-left: 65px;
+  width: 50%;
+}
+.stepsBlock .stepsItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #606060;
+}
+.stepsBlock .stepsItem > div:first-child {
+  font-size: 4.5em;
+  font-family: "Century";
+  color: #000;
+}
+.stepsBlock .stepsItem > div:last-child {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.stepsBlock .stepsItem > div:last-child > div:first-child {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.stepsBlock .stepsItem > div:last-child > div:last-child {
+  margin-top: 20px;
+  margin-left: -5px;
+  font-size: 1.2em;
+}
+.stepsBlock .stepsItem:nth-child(2) {
+  margin-top: 145px;
+  margin-left: 65px;
+}
+.stepsBlock .stepsItem:last-child {
+  margin-top: 130px;
+  margin-left: 15px;
+}
+.stepsBlock .stepsItem:last-child > div:last-child > div:last-child {
+  margin-right: -30px;
+}
+
+.subTitle,
+.container .textBlock .subTitle {
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #000;
+  text-transform: uppercase;
+}
+.subTitle {
+  margin-top: 45px;
+  align-self: center;
+}
+
+.sliderText {
+  margin-top: 55px;
+  align-self: center;
+  font-size: 1.4em;
+  color: #a89163;
+}
+
+.slider {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.slider .sliderLine {
+  margin-bottom: -6px;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 100%;
+  border-bottom: 3px solid #a89163;
+}
+.slider .sliderList {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.slider .sliderItem {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider .sliderItem .noneActive {
+  margin-top: -4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #909090;
+  cursor: pointer;
+}
+.slider .sliderItem .active {
+  margin-top: -12px;
+  margin-bottom: -6px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #606060;
+}
+.slider .sliderItem > div:last-child {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #606060;
+}
+.slider .sliderItem .noneActiveTitle {
+  border-bottom: 1px solid #fff;
+}
+.slider .sliderItem .activeTitle {
+  border-bottom: 1px solid #a89163;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  color: #606060;
+}
+.details .detailsTitle {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.details .detailsText {
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+.details .verticalSlider {
+  display: flex;
+  flex-direction: row;
+}
+.details .verticalSlider > div:last-child {
+  border-left: 2px solid #5b5b5b;
+}
+.details .verticalSlider > div:first-child {
+  z-index: 2;
+  margin-right: -10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #a89163;
+  align-self: center;
+}
+.details .subList {
+  padding: 0;
+  list-style: none;
+  font-size: 1.05em;
+  line-height: 1.25em;
+}
+
+.details .firstBlock {
+  margin-top: 30px;
+  margin-left: -20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .firstBlock > div {
+  margin-top: 20px;
+  margin-right: 5px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.details .firstBlock > div > div {
+  display: flex;
+  flex-direction: row;
+}
+.details .firstBlock > div > div:first-child {
+}
+.details .firstBlock > div > div > div:first-child {
+  margin-left: 5px;
+  width: 30%;
+}
+.details .firstBlock .verticalSlider {
+  margin-left: 5px;
+  width: 8%;
+}
+.details .firstBlock .detailsText {
+  margin-top: 5px;
+  width: 56%;
+}
+.details .firstBlock > div > div:last-child {
+  margin-top: 90px;
+}
+.details .firstBlock > div > div:last-child > div > .detailsTitle {
+  margin-top: 10px;
+}
+.details .firstBlock > img {
+  margin-top: 5px;
+  width: 28%;
+}
+
+.details .secondBlock {
+  margin-top: 30px;
+  margin-left: -5px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .secondBlock > img {
+  margin-bottom: 140px;
+  width: 29%;
+  align-self: center;
+}
+.details .secondBlock > div > div {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.details .secondBlock > div > div > div:first-child {
+  width: 32%;
+}
+.details .secondBlock > div > div .verticalSlider {
+  width: 8%;
+}
+.details .secondBlock > div > div .detailsText {
+  width: 60%;
+}
+.details .secondBlock > div > div:first-child .detailsTitle {
+  margin-top: -55px;
+}
+.details .secondBlock > div > div:first-child .subList {
+  margin-top: 30px;
+}
+.details .secondBlock > div > div:last-child {
+  margin-top: 50px;
+}
+.details .secondBlock > div > div:last-child .subList {
+  margin-top: 20px;
+}
+.details .secondBlock > div > div:last-child .verticalSlider {
+  margin-top: 50px;
+}
+.details .secondBlock > div > div:last-child .detailsText {
+  margin-top: 50px;
+}
+
+.details .thirdBlock {
+  margin-top: 65px;
+  margin-left: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .thirdBlock > div:first-child {
+  margin-top: 20px;
+  margin-right: 5px;
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+}
+.details .thirdBlock > div > div {
+  display: flex;
+  flex-direction: row;
+}
+.details .thirdBlock > div > div:first-child {
+}
+.details .thirdBlock > div > div > div:first-child {
+  margin-left: 5px;
+  width: 36%;
+}
+.details .thirdBlock > div > div > div:first-child .subList {
+  margin-top: 15px;
+}
+.details .thirdBlock .verticalSlider {
+  margin-left: 15px;
+  margin-top: 25px;
+  width: 9%;
+}
+.details .thirdBlock .detailsText {
+  margin-top: 40px;
+  width: 46%;
+}
+.details .thirdBlock > div > div:last-child {
+  margin-top: 55px;
+}
+.details .thirdBlock > div > div:last-child > div > .detailsTitle {
+  margin-top: 10px;
+}
+.details .thirdBlock > div > div:last-child > div > .subList {
+  margin-top: 20px;
+}
+.details .thirdBlock > div > div:last-child > .detailsText {
+  margin-top: 80px;
+}
+.details .thirdBlock > div:last-child {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+}
+.details .thirdBlock > div > div:last-child .verticalSlider {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.details .thirdBlock > div:last-child > img {
+  width: 100%;
+}
+.details .thirdBlock > div:last-child > img:first-child {
+  margin-top: -260px;
+}
+.details .thirdBlock > div:last-child > img:last-child {
+  margin-top: 50px;
+}
+
+.container > div:last-child {
+  margin-top: 55px;
+  margin-bottom: 20px;
+}

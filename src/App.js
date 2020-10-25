@@ -9,7 +9,7 @@ import Nav from "./components/nav/nav.component";
 import Calc from "./components/calc/calc.component";
 import Footer from "./components/footer/footer.component";
 // container
-import ProjectsContainer from "./components/projects-container/projects-container";
+import ServicesAndProjectsContainer from "./containers/services-and-projects-container/services-and-projects-container";
 // pages
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
@@ -26,7 +26,8 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/projects" component={ProjectsContainer} />
+            <Route path="/projects" component={ServicesAndProjectsContainer} />
+            <Route path="/services" component={ServicesAndProjectsContainer} />
             <Route path="*" component={Home} />
           </Switch>
           <Calc />
