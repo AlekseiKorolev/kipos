@@ -7,6 +7,8 @@ import ProjectsDesign from "../../components/projects-design/projects-design.com
 import ProjectsArchitecture from "../../components/projects-architecture/projects-architecture.component";
 import ProjectsLandscape from "../../components/projects-landscape/projects-landscape.component";
 import ServicesDesign from "../../components/services-design/services-design.component";
+import ServicesArchitecture from "../../components/services-architecture/services-architecture.component";
+import ServicesLandscape from "../../components/services-landscape/services-landscape.component";
 import ServicesRealization from "../../components/services-realization/services-realization.component";
 
 // container
@@ -25,6 +27,12 @@ const ServicesAndProjectsContainer = ({ match }) => {
       <Route exact path={`/projects/landscape`} component={ProjectsLandscape} />
       {/*service*/}
       <Route exact path={`/services/design`} component={ServicesDesign} />
+      <Route
+        exact
+        path={`/services/architecture`}
+        component={ServicesArchitecture}
+      />
+      <Route exact path={`/services/landscape`} component={ServicesLandscape} />
       <Route
         exact
         path={`/services/realization`}

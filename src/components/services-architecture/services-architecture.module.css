@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
 }
+.mainTitle {
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #a89163;
+  text-transform: uppercase;
+}
 
 .textBlock {
   margin-right: 10px;
@@ -10,12 +16,8 @@
   align-items: center;
 }
 
-.textBlock > div:first-child {
+.textBlock > .mainTitle {
   margin-top: 45px;
-  font-size: 1.9em;
-  font-family: "Century";
-  color: #a89163;
-  text-transform: uppercase;
 }
 .textBlock > div:nth-child(1n + 2) {
   width: 89%;
@@ -35,11 +37,11 @@
   margin-top: 20px;
 }
 .textBlock > div:nth-child(6) {
-  margin-top: 25px;
+  margin-top: 65px;
 }
 .textBlock > div:nth-child(7) {
-  margin-top: 5px;
-  width: 45%;
+  margin-top: 10px;
+  width: 48%;
   font-size: 1em;
 }
 
@@ -56,14 +58,20 @@
   justify-content: space-between;
 }
 .stepsBlock > div:first-child {
-  margin-top: 75px;
   width: 44%;
 }
-.stepsBlock > div:first-child img {
-  width: 100%;
+.stepsBlock > div:first-child img:first-child {
+  margin-top: -10px;
+  width: 95%;
+}
+.stepsBlock > div:first-child img:nth-child(2) {
+  margin-top: 100px;
+  margin-left: 105px;
+  width: 95%;
 }
 .stepsBlock > div:first-child img:last-child {
-  margin-bottom: 90px;
+  margin-top: 120px;
+  width: 95%;
 }
 .stepsBlock > div:last-child {
   margin-left: 65px;
@@ -94,11 +102,11 @@
   font-size: 1.2em;
 }
 .stepsBlock .stepsItem:nth-child(2) {
-  margin-top: 145px;
+  margin-top: 20px;
   margin-left: 65px;
 }
 .stepsBlock .stepsItem:last-child {
-  margin-top: 130px;
+  margin-bottom: 50px;
   margin-left: 15px;
 }
 .stepsBlock .stepsItem:last-child > div:last-child > div:last-child {
@@ -113,7 +121,7 @@
   text-transform: uppercase;
 }
 .subTitle {
-  margin-top: 45px;
+  margin-top: 65px;
   align-self: center;
 }
 
@@ -184,39 +192,40 @@
 }
 .details .firstBlock .detailsText {
   margin-top: 5px;
-  width: 56%;
+  width: 57%;
 }
 .details .firstBlock > div > div:last-child {
-  margin-top: 90px;
+  margin-top: 115px;
 }
 .details .firstBlock > div > div:last-child > div > .detailsTitle {
   margin-top: 10px;
 }
 .details .firstBlock > img {
-  margin-top: 5px;
-  width: 28%;
+  margin-top: -5px;
+  margin-right: -25px;
+  width: 29.5%;
 }
 
 .details .secondBlock {
-  margin-top: 30px;
-  margin-left: -5px;
+  margin-top: 35px;
+  margin-left: -15px;
   margin-right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .details .secondBlock > img {
-  margin-bottom: 140px;
-  width: 29%;
-  align-self: center;
+  width: 28%;
+  align-self: flex-start;
 }
 .details .secondBlock > div > div {
-  margin-left: 25px;
+  margin-top: 70px;
+  margin-left: 45px;
   display: flex;
   flex-direction: row;
 }
 .details .secondBlock > div > div > div:first-child {
-  width: 32%;
+  width: 31%;
 }
 .details .secondBlock > div > div .verticalSlider {
   width: 8%;
@@ -225,92 +234,219 @@
   width: 60%;
 }
 .details .secondBlock > div > div:first-child .detailsTitle {
-  margin-top: -55px;
+  margin-top: -50px;
+}
+.details .secondBlock > div > div:first-child .verticalSlider {
+  margin-top: -34px;
+  margin-bottom: -15px;
 }
 .details .secondBlock > div > div:first-child .subList {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .details .secondBlock > div > div:last-child {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .details .secondBlock > div > div:last-child .subList {
-  margin-top: 20px;
+  margin-top: 70px;
 }
 .details .secondBlock > div > div:last-child .verticalSlider {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .details .secondBlock > div > div:last-child .detailsText {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .details .thirdBlock {
-  margin-top: 65px;
-  margin-left: -20px;
+  margin-top: 40px;
+  margin-left: -25px;
+  margin-right: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.details .thirdBlock > div:first-child > div > div:first-child {
+  width: 34%;
+}
+.details .thirdBlock .verticalSlider {
+  margin-left: 20px;
+  width: 9%;
+}
+.details .thirdBlock .detailsText {
+  width: 52%;
+}
 .details .thirdBlock > div:first-child {
   margin-top: 20px;
   margin-right: 5px;
-  width: 59%;
+  width: 70%;
   display: flex;
   flex-direction: column;
+}
+.details .thirdBlock > div:last-child {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .details .thirdBlock > div > div {
   display: flex;
   flex-direction: row;
 }
-.details .thirdBlock > div > div:first-child {
-}
-.details .thirdBlock > div > div > div:first-child {
+.details .thirdBlock .detailsTitle {
   margin-left: 5px;
-  width: 36%;
 }
 .details .thirdBlock > div > div > div:first-child .subList {
-  margin-top: 15px;
-}
-.details .thirdBlock .verticalSlider {
-  margin-left: 15px;
-  margin-top: 25px;
-  width: 9%;
-}
-.details .thirdBlock .detailsText {
-  margin-top: 40px;
-  width: 46%;
-}
-.details .thirdBlock > div > div:last-child {
-  margin-top: 55px;
-}
-.details .thirdBlock > div > div:last-child > div > .detailsTitle {
   margin-top: 10px;
 }
-.details .thirdBlock > div > div:last-child > div > .subList {
+.details .thirdBlock > div > div:first-child .verticalSlider {
+  margin-top: -20px;
+}
+.details .thirdBlock > div > div:first-child .detailsText {
+  margin-top: -10px;
+}
+.details .thirdBlock > div > div:nth-child(2) {
+  margin-top: 40px;
+}
+.details .thirdBlock > div > div:nth-child(2) > div > .detailsTitle {
+  margin-top: 10px;
+  width: 33%;
+}
+.details .thirdBlock > div > div:nth-child(2) > div > .subList {
   margin-top: 20px;
 }
-.details .thirdBlock > div > div:last-child > .detailsText {
-  margin-top: 80px;
+.details .thirdBlock > div > div:nth-child(2) .verticalSlider {
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
+.details .thirdBlock > div > div:nth-child(2) .detailsText {
+}
+
 .details .thirdBlock > div:last-child {
   width: 41%;
   display: flex;
   flex-direction: column;
 }
 .details .thirdBlock > div > div:last-child .verticalSlider {
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 .details .thirdBlock > div:last-child > img {
-  width: 100%;
+  width: 95%;
 }
 .details .thirdBlock > div:last-child > img:first-child {
-  margin-top: -260px;
+  margin-top: -5px;
 }
-.details .thirdBlock > div:last-child > img:last-child {
-  margin-top: 50px;
+
+.details .fourthBlock {
+  margin-top: 35px;
+  margin-left: -15px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.details .fourthBlock > img {
+  margin-top: 5px;
+  width: 29%;
+  align-self: flex-start;
+}
+.details .fourthBlock > div > div {
+  margin-left: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.details .fourthBlock > div > div > div:first-child {
+  margin-left: -15px;
+  width: 34%;
+}
+.details .fourthBlock > div > div .verticalSlider {
+  margin-left: 10px;
+  width: 8%;
+}
+.details .fourthBlock > div > div .detailsText {
+  width: 55%;
+}
+.details .fourthBlock > div > div:first-child .detailsTitle {
+  margin-top: 15px;
+  width: 50%;
+}
+.details .fourthBlock > div > div:first-child .subList {
+  margin-top: 20px;
+}
+.details .fourthBlock > div > div:first-child .verticalSlider {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.details .fourthBlock > div > div:first-child .detailsText {
+  margin-top: 10px;
+}
+.details .fourthBlock > div > div:last-child {
+  margin-bottom: 40px;
+}
+.details .fourthBlock > div > div:last-child .subList {
+  margin-top: 0px;
+}
+.details .fourthBlock > div > div:last-child .verticalSlider {
+  margin-top: 10px;
+}
+.details .fourthBlock > div > div:last-child .detailsText {
+  margin-top: 70px;
+}
+
+.container > .mainTitle {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.details .fifthBlock {
+  width: 80%;
+  margin-top: 45px;
+  margin-left: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.details .fifthBlock > div {
+  display: flex;
+  flex-direction: row;
+}
+.details .fifthBlock > div > div:first-child {
+  margin-left: 5px;
+  width: 29%;
+}
+.details .fifthBlock > div > div:nth-child(2) {
+  margin-left: 5px;
+  width: 4%;
+}
+.details .fifthBlock > div > div:last-child {
+  margin-left: 25px;
+  width: 47%;
+}
+.details .fifthBlock > div:first-child .subList {
+  margin-top: 10px;
+}
+.details .fifthBlock > div:first-child .verticalSlider {
+  margin-bottom: 20px;
+}
+.details .fifthBlock > div:nth-child(2) {
+  margin-top: 60px;
+}
+.details .fifthBlock > div:nth-child(2) .subList {
+  margin-top: 5px;
+}
+.details .fifthBlock > div:nth-child(3) {
+  margin-top: 60px;
+}
+.details .fifthBlock > div:nth-child(3) .subList {
+  margin-top: 5px;
+}
+.details .fifthBlock > div:nth-child(4) {
+  margin-top: 80px;
+}
+.details .fifthBlock > div:nth-child(4) .subList {
+  margin-top: 5px;
 }
 
 .container > div:last-child {
-  margin-top: 55px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }

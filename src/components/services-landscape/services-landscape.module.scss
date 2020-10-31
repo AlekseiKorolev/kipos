@@ -1,0 +1,261 @@
+.servicesTextBlock {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicesMainTitle {
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #a89163;
+  text-transform: uppercase;
+}
+.servicesMainSubTitle {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.servicesTitle {
+  font-size: 1.9em;
+  font-family: "Century";
+  color: #000;
+  text-transform: uppercase;
+}
+.servicesMainText {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.servicesText {
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+.servicesCaption {
+  font-size: 1em;
+}
+.servicesDetailsTitle {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.servicesDetailsSubList {
+  padding: 0;
+  list-style: none;
+  font-size: 1.05em;
+  line-height: 1.25em;
+}
+.servicesVerticalSlider {
+  display: flex;
+  flex-direction: row;
+  > div:first-child {
+    z-index: 2;
+    margin-right: -10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #a89163;
+    align-self: center;
+  }
+  > div:last-child {
+    border-left: 2px solid #5b5b5b;
+  }
+}
+.servicesDetailsText {
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+/***/
+.serviceLandscapeContainer {
+  color: #606060;
+  display: flex;
+  flex-direction: column;
+
+  .servicesTextBlock {
+    &:first-child {
+      .servicesMainTitle {
+        margin-top: 45px;
+      }
+      div:nth-child(1n + 2) {
+        width: 89%;
+        text-align: center;
+      }
+      div:nth-child(3) {
+        margin-top: 30px;
+      }
+      .servicesTitle {
+        margin-top: 90px;
+      }
+      div:last-child {
+        margin-top: 10px;
+        width: 46%;
+      }
+    }
+    &:nth-child(3) {
+      width: 95%;
+      align-self: center;
+      text-align: center;
+      margin-top: 40px;
+      > div:nth-child(2n + 2) {
+        margin: 20px;
+      }
+      > div:last-child {
+        margin-top: 60px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .stepsBlock {
+    margin-top: 65px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    > div:first-child {
+      width: 44%;
+    }
+    img:first-child {
+      margin-top: 10px;
+      margin-left: 65px;
+      width: 90%;
+    }
+    img:last-child {
+      margin-top: 35px;
+      margin-left: 70px;
+      width: 90%;
+    }
+
+    > div:last-child {
+      margin-left: 85px;
+      width: 52%;
+    }
+
+    .stepsItem {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      > div:first-child {
+        font-size: 4.5em;
+        font-family: "Century";
+        color: #000;
+      }
+      > div:last-child {
+        margin-top: 50px;
+        margin-left: 50px;
+
+        > div:first-child {
+          text-transform: uppercase;
+          font-size: 1.4em;
+        }
+        > div:last-child {
+          margin-top: 20px;
+          margin-left: -5px;
+          font-size: 1.2em;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 60px;
+        margin-left: 15px;
+        > div:last-child {
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+
+  .details {
+    margin-top: 50px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: column;
+    > div {
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .servicesDetailsHeader {
+        width: 26%;
+      }
+      .servicesVerticalSlider {
+        width: 3%;
+        margin-right: 5px;
+      }
+      .servicesDetailsText {
+        width: 55%;
+        margin-right: 60px;
+      }
+    }
+    > div:nth-child(1n + 2) {
+      margin-top: 110px;
+    }
+    > div:nth-child(2) {
+      .servicesDetailsHeader {
+        margin-top: 5px;
+      }
+      .servicesDetailsSubList {
+        margin-top: 25px;
+      }
+    }
+    > div:nth-child(3),
+    > div:nth-child(4) {
+      margin-right: -10px;
+      align-self: flex-end;
+      .servicesDetailsHeader {
+        width: 30%;
+      }
+      .servicesDetailsSubList {
+        width: 74%;
+        margin-top: 25px;
+      }
+      .servicesVerticalSlider {
+        margin-top: 50px;
+      }
+      .servicesDetailsText {
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 56%;
+      }
+    }
+    > div:nth-child(4) {
+      margin-top: 100px;
+      .servicesDetailsSubList {
+        width: 100%;
+        margin-top: 20px;
+      }
+      .servicesVerticalSlider {
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+    > div:last-child {
+      margin-top: 80px;
+      justify-content: flex-start;
+      .servicesDetailsHeader {
+        width: 30%;
+      }
+      .servicesDetailsSubList {
+        margin-top: 10px;
+      }
+      .servicesVerticalSlider {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+      }
+      .servicesDetailsText {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 41%;
+      }
+    }
+  }
+  > div:last-child {
+    margin-top: 70px;
+    margin-bottom: 60px;
+  }
+}

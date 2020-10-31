@@ -1,0 +1,63 @@
+.sliderText {
+  margin-top: 55px;
+  text-align: center;
+  font-size: 1.4em;
+  color: #a89163;
+}
+
+.slider {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.slider .sliderLine {
+  margin-bottom: -6px;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 100%;
+  border-bottom: 3px solid #a89163;
+}
+.slider .sliderList {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.slider .sliderItem {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider .sliderItem .noneActive {
+  margin-top: -4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #909090;
+  cursor: pointer;
+}
+.slider .sliderItem .active {
+  margin-top: -12px;
+  margin-bottom: -6px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #606060;
+}
+.slider .sliderItem > div:last-child {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #606060;
+}
+.slider .sliderItem .noneActiveTitle {
+  border-bottom: 1px solid #fff;
+}
+.slider .sliderItem .activeTitle {
+  border-bottom: 1px solid #a89163;
+}
