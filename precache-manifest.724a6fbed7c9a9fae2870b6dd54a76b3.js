@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "754a248a5a95415feddb29c21865dbf8",
+    "revision": "82e8e62bce9c7580772fe259ecc2f767",
     "url": "/kipos/index.html"
   },
   {
