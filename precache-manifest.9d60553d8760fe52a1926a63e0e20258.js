@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed4633e61da32ec40c982f2ac9d3855e",
+    "revision": "754a248a5a95415feddb29c21865dbf8",
     "url": "/kipos/index.html"
   },
   {
-    "revision": "251f8d189d27f7b52ccb",
-    "url": "/kipos/static/css/main.4ad81b01.chunk.css"
+    "revision": "99f78a11a0c5010774c2",
+    "url": "/kipos/static/css/main.4aacf3d7.chunk.css"
   },
   {
     "revision": "bd010475e1943690ce34",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kipos/static/js/2.51857304.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "251f8d189d27f7b52ccb",
+    "revision": "99f78a11a0c5010774c2",
     "url": "/kipos/static/js/main.4ca4d52d.chunk.js"
   },
   {

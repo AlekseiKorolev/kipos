@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kipos/static/css/main.4ad81b01.chunk.css",
+    "main.css": "/kipos/static/css/main.4aacf3d7.chunk.css",
     "main.js": "/kipos/static/js/main.4ca4d52d.chunk.js",
     "main.js.map": "/kipos/static/js/main.4ca4d52d.chunk.js.map",
     "runtime-main.js": "/kipos/static/js/runtime-main.829a11bf.js",
@@ -8,9 +8,9 @@
     "static/js/2.51857304.chunk.js": "/kipos/static/js/2.51857304.chunk.js",
     "static/js/2.51857304.chunk.js.map": "/kipos/static/js/2.51857304.chunk.js.map",
     "index.html": "/kipos/index.html",
-    "precache-manifest.63272917feadf0a4e40824a599f05a2a.js": "/kipos/precache-manifest.63272917feadf0a4e40824a599f05a2a.js",
+    "precache-manifest.9d60553d8760fe52a1926a63e0e20258.js": "/kipos/precache-manifest.9d60553d8760fe52a1926a63e0e20258.js",
     "service-worker.js": "/kipos/service-worker.js",
-    "static/css/main.4ad81b01.chunk.css.map": "/kipos/static/css/main.4ad81b01.chunk.css.map",
+    "static/css/main.4aacf3d7.chunk.css.map": "/kipos/static/css/main.4aacf3d7.chunk.css.map",
     "static/js/2.51857304.chunk.js.LICENSE.txt": "/kipos/static/js/2.51857304.chunk.js.LICENSE.txt",
     "static/media/01.png": "/kipos/static/media/01.d6f40f4f.png",
     "static/media/02.png": "/kipos/static/media/02.fb99942a.png",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.829a11bf.js",
     "static/js/2.51857304.chunk.js",
-    "static/css/main.4ad81b01.chunk.css",
+    "static/css/main.4aacf3d7.chunk.css",
     "static/js/main.4ca4d52d.chunk.js"
   ]
 }
