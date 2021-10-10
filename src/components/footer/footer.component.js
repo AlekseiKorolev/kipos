@@ -1,9 +1,12 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 
 import classes from "./footer.module.css";
 
-const Footer = () => {
-  return (
+const Footer = ({ history }) => {
+  const isContacts = history.location.pathname.split("/").filter(x => x !== "")[0] === "contacts";
+
+  return !isContacts && (
     <div className={classes.container}>
       <div>
         <span>&copy; 2017-2020, OOO "КИПОС"</span>
@@ -31,4 +34,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default withRouter(Footer);

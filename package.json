@@ -36,9 +36,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.0"
   },
-  "temp-homepage": "./",
-  "domain-homepage": "https://kiposgroup.ru/kipos/",
-  "homepage": "https://alekseikorolev.github.io/kipos/"
+  "homepage": "/"
 }

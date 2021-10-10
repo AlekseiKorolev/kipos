@@ -20,12 +20,18 @@ const mainMenu = [
   { key: "order", text: "заказать проект" }
 ];
 
-const NavMenu = ({ history }) => {
+const NavMenu = ({ history, openCalcModal, openOrderModal }) => {
   const [active, setActive] = useState("");
 
   const handleClick = path => {
-    history.push(`/${path}`);
-    setActive(path);
+    if (path === 'calc') {
+      openCalcModal();
+    } else if (path === 'order') {
+      openOrderModal();
+    } else {
+      history.push(`/${path}`);
+      setActive(path);
+    }
   };
 
   useEffect(() => {

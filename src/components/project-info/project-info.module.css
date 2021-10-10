@@ -1,6 +1,5 @@
 .container {
-  /*background-color: rgba(150, 0, 0, 0.2);
-  border: 1px dotted gray;*/
+  height: 100vh;
   padding-left: 10px;
   padding-top: 80px;
 }
@@ -10,10 +9,10 @@
   align-items: flex-start;
   margin-top: 25px;
 }
-.projectPreview div:first-child {
+.projectButton {
   margin-top: 35px;
   width: 17%;
 }
-.projectPreview div:last-child {
+.slideShowComponent {
   width: 83%;
 }

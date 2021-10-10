@@ -8,7 +8,7 @@ import NavLogo from "../nav-logo/nav-logo.component";
 import NavMenu from "../nav-menu/nav-menu.component";
 import NavSocial from "../nav-social/nav-social.component";
 
-const Nav = ({ history }) => {
+const Nav = ({ history, openCalcModal, openOrderModal }) => {
   useEffect(() => {
     window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
   }, [history.location.pathname]);
@@ -16,7 +16,7 @@ const Nav = ({ history }) => {
   return (
     <div className={classes.container}>
       <NavLogo />
-      <NavMenu />
+      <NavMenu openCalcModal={openCalcModal} openOrderModal={openOrderModal}/>
       <NavSocial />
     </div>
   );

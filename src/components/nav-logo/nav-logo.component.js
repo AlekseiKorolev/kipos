@@ -24,6 +24,7 @@ const NavLogo = ({ history }) => {
         setLogo(logoDesign);
         break;
       case "architecture":
+      case "contacts":
         setLogo(logoArch);
         break;
       case "landscape":

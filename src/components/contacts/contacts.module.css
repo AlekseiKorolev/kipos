@@ -1,0 +1,91 @@
+.contacts {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContainer,
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: "Century";
+    font-size: 2.0em;
+    color: #a89163;
+}
+
+.text {
+    font-size: 1.1em;
+    font-family: "MuseoSansCyrl-500";
+    color: #000;
+}
+
+.leftContainer {
+    margin-right: 200px;
+}
+
+.rightContainer > .item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 25px;
+    color: #c7b287;
+  }
+  .link:hover {
+    color: #606060;
+  }
+
+  .triangle01,
+  .triangle02,
+  .triangle03 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+    border: 150px solid rgba(244, 243, 238, 0.5);
+    transform: rotate(45deg);
+  }
+  .triangle01 {
+    margin-left: 38%;
+    margin-top: 0%;
+  }
+
+  .triangle02 {
+    border: 150px solid rgba(229, 229, 229, 0.5);
+
+    margin-left: 40%;
+    margin-top: 0%;
+  }
+
+  .triangle03 {
+    z-index: -2;
+
+    margin-left: 43%;
+    margin-top: 0%;
+  }
