@@ -3,15 +3,14 @@ import React from "react";
 import classes from "./project-design-bogdanovo.module.css";
 
 import data from "./bogdanovo.util";
+import { imgComponent } from "../../utils/img-component";
 // components
 import ProjectTitle from "../project-title/project-title.component";
 import ViewOthersProjectsLink from "../view-others-projects-link/view-others-projects-link.component";
 
-const loadImage = fileName => {
-  return require(`../../images/projects/design/bogdanovo/${fileName}`);
-};
+const DesignBogdanovo = ({ openPreviewModal }) => {
+  const img = (index) => imgComponent(data.path, data.urls, index, openPreviewModal);
 
-const DesignBogdanovo = () => {
   return (
     <div className={classes.container}>
       <ProjectTitle title={data.title} caption={data.caption} />
@@ -19,27 +18,27 @@ const DesignBogdanovo = () => {
         <div>
           <div>{data.text1}</div>
           <div>{data.text2}</div>
-          <img src={loadImage(data.urls[0])} alt="проект Богданово" />
+            {img(0)}
           <div>{data.text3}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[1])} alt="проект Богданово" />
+          {img(1)}
           <div>{data.text4}</div>
         </div>
       </div>
       <div className={classes.secondBlock}>
         <div>{data.text5}</div>
-        <img src={loadImage(data.urls[2])} alt="проект Богданово" />
+          {img(2)}
         <div>{data.text6}</div>
       </div>
 
       <div className={classes.thirdBlock}>
         <div>
-          <img src={loadImage(data.urls[3])} alt="проект Богданово" />
+          {img(3)}
           <div>{data.text7}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[4])} alt="проект Богданово" />
+          {img(4)}
           <div>{data.text8}</div>
         </div>
       </div>
@@ -47,19 +46,19 @@ const DesignBogdanovo = () => {
 
       <div className={classes.fifthBlock}>
         <div>
-          <img src={loadImage(data.urls[5])} alt="проект Богданово" />
+          {img(5)}
           <div>{data.text10}</div>
         </div>
-        <img src={loadImage(data.urls[6])} alt="проект Богданово" />
+          {img(6)}
       </div>
 
       <div className={classes.sixthBlock}>
         <div>
-          <img src={loadImage(data.urls[7])} alt="проект Богданово" />
+          {img(7)}
           <div>{data.text11}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[8])} alt="проект Богданово" />
+          {img(8)}
           <div>{data.text12}</div>
         </div>
       </div>

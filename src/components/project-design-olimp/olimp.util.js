@@ -20,7 +20,7 @@ export default {
   text13: "Прихожая",
   text14: "Ванная комната",
   text15: "Гардероб",
-  path: "../../images/projects/design/olimp/",
+  path: "design/olimp/",
   urls: [
     "01.png",
     "02.png",

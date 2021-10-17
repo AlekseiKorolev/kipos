@@ -18,7 +18,7 @@ export default {
   text11:
     "Пастельная цветовая гамма, много света и функциональная планировка - главное в этом проекте.",
   text12: "Кинозал",
-  path: "../../images/projects/design/leskovo/",
+  path: "design/leskovo/",
   urls: [
     "01.png",
     "02.png",

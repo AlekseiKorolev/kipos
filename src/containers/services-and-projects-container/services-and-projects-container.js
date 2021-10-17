@@ -14,31 +14,19 @@ import ServicesRealization from "../../components/services-realization/services-
 // container
 import ProjectContainer from "../project-container/project-container";
 
-const ServicesAndProjectsContainer = ({ match }) => {
+const ServicesAndProjectsContainer = ({ openPreviewModal }) => {
   return (
     <Switch>
       {/*projects*/}
       <Route exact path={`/projects/design`} component={ProjectsDesign} />
-      <Route
-        exact
-        path={`/projects/architecture`}
-        component={ProjectsArchitecture}
-      />
+      <Route exact path={`/projects/architecture`} component={ProjectsArchitecture}/>
       <Route exact path={`/projects/landscape`} component={ProjectsLandscape} />
       {/*service*/}
       <Route exact path={`/services/design`} component={ServicesDesign} />
-      <Route
-        exact
-        path={`/services/architecture`}
-        component={ServicesArchitecture}
-      />
+      <Route exact path={`/services/architecture`} component={ServicesArchitecture}/>
       <Route exact path={`/services/landscape`} component={ServicesLandscape} />
-      <Route
-        exact
-        path={`/services/realization`}
-        component={ServicesRealization}
-      />
-      <Route path="*" component={ProjectContainer} />
+      <Route exact path={`/services/realization`} component={ServicesRealization}/>
+      <Route path="*" render={ (props) => <ProjectContainer {...props} openPreviewModal={openPreviewModal} />} />
     </Switch>
   );
 };

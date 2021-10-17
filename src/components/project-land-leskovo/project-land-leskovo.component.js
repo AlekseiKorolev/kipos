@@ -3,15 +3,14 @@ import React from "react";
 import classes from "./project-land-leskovo.module.css";
 
 import data from "./leskovo.util";
+import { imgComponent } from "../../utils/img-component";
 // components
 import ProjectTitle from "../project-title/project-title.component";
 import ViewOthersProjectsLink from "../view-others-projects-link/view-others-projects-link.component";
 
-const loadImage = fileName => {
-  return require(`../../images/projects/land/leskovo/${fileName}`);
-};
+const LandLeskovo = ({ openPreviewModal }) => {
+  const img = (index) => imgComponent(data.path, data.urls, index, openPreviewModal);
 
-const LandLeskovo = () => {
   return (
     <div className={classes.container}>
       <ProjectTitle title={data.title} caption={data.caption} />
@@ -22,11 +21,11 @@ const LandLeskovo = () => {
           <div>{data.text2}</div>
           <div>{data.text3}</div>
         </div>
-        <img src={loadImage(data.urls[0])} alt="проект Лесково" />
+        {img(0)}
       </div>
 
       <div className={classes.secondBlock}>
-        <img src={loadImage(data.urls[1])} alt="проект Лесково" />
+        {img(1)}
         <div>{data.text4}</div>
       </div>
 
@@ -37,11 +36,11 @@ const LandLeskovo = () => {
 
       <div className={classes.fourthBlock}>
         <div>
-          <img src={loadImage(data.urls[2])} alt="проект Лесково" />
+          {img(2)}
           <div>{data.text7}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[3])} alt="проект Лесково" />
+          {img(3)}
           <div>{data.text8}</div>
         </div>
       </div>

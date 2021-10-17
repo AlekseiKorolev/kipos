@@ -6,6 +6,10 @@
   color: #606060;
 }
 
+.container img {
+  cursor: pointer;
+}
+
 .firstBlock {
   display: flex;
   justify-content: space-between;

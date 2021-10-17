@@ -17,7 +17,7 @@ export default {
   text10: "Кухня-гостиная",
   text11: "Лестница",
   text12: "Гостевая спальня",
-  path: "../../images/projects/arch/bogdanovo/",
+  path: "design/bogdanovo/",
   urls: [
     "01.png",
     "02.png",

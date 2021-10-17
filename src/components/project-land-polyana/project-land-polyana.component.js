@@ -3,15 +3,14 @@ import React from "react";
 import classes from "./project-land-polyana.module.css";
 
 import data from "./polyana.util";
+import { imgComponent } from "../../utils/img-component";
 // components
 import ProjectTitle from "../project-title/project-title.component";
 import ViewOthersProjectsLink from "../view-others-projects-link/view-others-projects-link.component";
 
-const loadImage = fileName => {
-  return require(`../../images/projects/land/polyana/${fileName}`);
-};
+const LandPolyana = ({ openPreviewModal }) => {
+  const img = (index) => imgComponent(data.path, data.urls, index, openPreviewModal);
 
-const LandPolyana = () => {
   return (
     <div className={classes.container}>
       <ProjectTitle title={data.title} caption={data.caption} />
@@ -21,11 +20,11 @@ const LandPolyana = () => {
           <div>{data.text1}</div>
           <div>{data.text2}</div>
         </div>
-        <img src={loadImage(data.urls[0])} alt="проект Заячья Поляна" />
+        {img(0)}
       </div>
 
       <div className={classes.secondBlock}>
-        <img src={loadImage(data.urls[1])} alt="проект Заячья Поляна" />
+        {img(1)}
         <div>{data.text3}</div>
       </div>
 
@@ -35,8 +34,8 @@ const LandPolyana = () => {
       </div>
 
       <div className={classes.fourthBlock}>
-        <img src={loadImage(data.urls[2])} alt="проект Заячья Поляна" />
-        <img src={loadImage(data.urls[3])} alt="проект Заячья Поляна" />
+        {img(2)}
+        {img(3)}
       </div>
 
       <div className={classes.fifthBlock}>
@@ -46,16 +45,16 @@ const LandPolyana = () => {
 
       <div className={classes.sixthBlock}>
         <div>
-          <img src={loadImage(data.urls[4])} alt="проект Заячья Поляна" />
+          {img(4)}
           <div>{data.text8}</div>
         </div>
       </div>
 
       <div className={classes.seventhBlock}>
-        <img src={loadImage(data.urls[5])} alt="проект Заячья Поляна" />
+        {img(5)}
         <div>
-          <img src={loadImage(data.urls[6])} alt="проект Заячья Поляна" />
-          <img src={loadImage(data.urls[7])} alt="проект Заячья Поляна" />
+          {img(6)}
+          {img(7)}
         </div>
       </div>
 

@@ -16,7 +16,7 @@ export default {
     "Минимализм, лаконичные формы, аскетичные цвета - главные характерные черты этого проекта.",
   text10: "Гостиная",
   text11: "Детская спальня",
-  path: "../../images/projects/arch/bogdanovo/",
+  path: "design/ramon/",
   urls: [
     "01.png",
     "02.png",

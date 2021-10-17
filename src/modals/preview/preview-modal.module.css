@@ -1,11 +1,23 @@
-.container {
-  position: relative;
-  width: 100%;
+.previewPopup {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  border: 1px solid #ccc;
+  left: 10%;
+  top: 10%;
+  box-sizing: border-box;
+
+  width: 80vw;
+  height: 80vh;
+  padding: 10px 40px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image {
-  cursor: pointer;
-  width: 100%;
+  width: auto;
+  height: 100%;
   transition: filter 0.2s;
 }
 
@@ -15,7 +27,11 @@
 
 .rightArrow {
   cursor: pointer;
+
   padding: 10px;
+  opacity: 0.7;
+  background-color: lightgray;
+  border-radius: 4px;
 
   position: absolute;
   right: 20px;
@@ -25,7 +41,11 @@
 
 .leftArrow {
   cursor: pointer;
+
   padding: 10px;
+  opacity: 0.7;
+  background-color: lightgray;
+  border-radius: 4px;
 
   position: absolute;
   left: 20px;
@@ -38,8 +58,13 @@
 .bar {
   position: absolute;
   bottom: 50px;
-  width: 100%;
+  width: auto;
   height: 30px;
+
+  opacity: 0.7;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 4px;
 
   display: flex;
   justify-content: center;

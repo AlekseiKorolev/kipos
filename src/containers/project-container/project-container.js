@@ -18,32 +18,27 @@ import LandVladimir from "../../components/project-land-vladimir/project-land-vl
 import LandPolyana from "../../components/project-land-polyana/project-land-polyana.component";
 import LandLeskovo from "../../components/project-land-leskovo/project-land-leskovo.component";
 
-const ProjectContainer = ({ match }) => {
+const ProjectContainer = ({ match, openPreviewModal }) => {
+  console.warn('>>> match ', match)
   return (
     <Switch>
       {/* architecture */}
-      <Route
-        path={`/projects/architecture/bogdanovo`}
-        component={ArchBogdanovo}
-      />
-      <Route
-        path={`/projects/architecture/vladimir`}
-        component={ArchVladimir}
-      />
-      <Route path={`${match.path}/nelga`} component={ArchNelga} />
+      <Route path={`/projects/architecture/bogdanovo`} render={() => <ArchBogdanovo openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`/projects/architecture/vladimir`} render={() => <ArchVladimir openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/nelga`} render={() => <ArchNelga openPreviewModal={openPreviewModal}/>}/>
       {/* design */}
-      <Route path={`/projects/design/bogdanovo`} component={DesignBogdanovo} />
-      <Route path={`/projects/design/vladimir`} component={DesignVladimir} />
-      <Route path={`/projects/design/leskovo`} component={DesignLeskovo} />
-      <Route path={`${match.path}/radiobar`} component={DesignRadiobar} />
-      <Route path={`${match.path}/millennium`} component={DesignMillennium} />
-      <Route path={`${match.path}/nikitinskay`} component={DesignNikitinskay} />
-      <Route path={`${match.path}/olimp`} component={DesignOlimp} />
-      <Route path={`${match.path}/ramon`} component={DesignRamon} />
+      <Route path={`/projects/design/bogdanovo`} render={() => <DesignBogdanovo openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`/projects/design/vladimir`} render={() => <DesignVladimir openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`/projects/design/leskovo`} render={() => <DesignLeskovo openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/radiobar`} render={() => <DesignRadiobar openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/millennium`} render={() => <DesignMillennium openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/nikitinskay`} render={() => <DesignNikitinskay openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/olimp`} render={() => <DesignOlimp openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/ramon`} render={() => <DesignRamon openPreviewModal={openPreviewModal}/>}/>
       {/* landscape */}
-      <Route path={`/projects/landscape/vladimir`} component={LandVladimir} />
-      <Route path={`/projects/landscape/leskovo`} component={LandLeskovo} />
-      <Route path={`${match.path}/polyana`} component={LandPolyana} />
+      <Route path={`/projects/landscape/vladimir`} render={() => <LandVladimir openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`/projects/landscape/leskovo`} render={() => <LandLeskovo openPreviewModal={openPreviewModal}/>}/>
+      <Route path={`${match.path}/polyana`} render={() => <LandPolyana openPreviewModal={openPreviewModal}/>}/>
     </Switch>
   );
 };

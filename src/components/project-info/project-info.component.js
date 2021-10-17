@@ -79,7 +79,13 @@ const ProjectInfo = () => {
         <div className={classes.projectButton}>
           <ViewProjectButton path={path}/>
         </div>
-          <ProjectSlideShow className={classes.slideShowComponent} img={image} turnPictures={turnPictures} total={projects.map(x => x.img)} current={count}/>
+          <ProjectSlideShow 
+            className={classes.slideShowComponent} 
+            img={image} 
+            turnPictures={turnPictures} 
+            total={projects.map(x => x.img)} 
+            current={count}
+            path={path}/>
       </div>
     </div>
   );

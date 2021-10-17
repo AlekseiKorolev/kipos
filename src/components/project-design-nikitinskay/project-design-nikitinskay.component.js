@@ -3,15 +3,14 @@ import React from "react";
 import classes from "./project-design-nikitinskay.module.css";
 
 import data from "./nikitinskay.util";
+import { imgComponent } from "../../utils/img-component";
 // components
 import ProjectTitle from "../project-title/project-title.component";
 import ViewOthersProjectsLink from "../view-others-projects-link/view-others-projects-link.component";
 
-const loadImage = fileName => {
-  return require(`../../images/projects/design/nikitinskay/${fileName}`);
-};
+const DesignNikitinskay = ({ openPreviewModal }) => {
+  const img = (index) => imgComponent(data.path, data.urls, index, openPreviewModal);
 
-const DesignNikitinskay = () => {
   return (
     <div className={classes.container}>
       <ProjectTitle title={data.title} caption={data.caption} />
@@ -19,32 +18,32 @@ const DesignNikitinskay = () => {
         <div>
           <div>{data.text1}</div>
           <div>{data.text2}</div>
-          <img src={loadImage(data.urls[0])} alt="проект Никитинская" />
+          {img(0)}
           <div>{data.text3}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[1])} alt="проект Никитинская" />
+          {img(1)}
           <div>{data.text4}</div>
         </div>
       </div>
 
       <div className={classes.secondBlock}>
         <div>{data.text5}</div>
-        <img src={loadImage(data.urls[2])} alt="проект Никитинская" />
+          {img(2)}
         <div>{data.text6}</div>
       </div>
 
       <div className={classes.thirdBlock}>
         <div>
-          <img src={loadImage(data.urls[3])} alt="проект Никитинская" />
+          {img(3)}
           <div>{data.text7}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[4])} alt="проект Никитинская" />
+          {img(4)}
           <div>{data.text8}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[5])} alt="проект Никитинская" />
+          {img(5)}
           <div>{data.text9}</div>
         </div>
       </div>
@@ -52,13 +51,13 @@ const DesignNikitinskay = () => {
       <div className={classes.fourthBlock}>
         <div>
           <div>{data.text10}</div>
-          <img src={loadImage(data.urls[6])} alt="проект Никитинская" />
+            {img(6)}
           <div>{data.text11}</div>
         </div>
         <div>
-          <img src={loadImage(data.urls[7])} alt="проект Никитинская" />
+          {img(7)}
           <div>{data.text12}</div>
-          <img src={loadImage(data.urls[8])} alt="проект Никитинская" />
+          {img(8)}
         </div>
       </div>
 

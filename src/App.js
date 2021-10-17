@@ -20,16 +20,18 @@ import Modal from './modals/modal/modal';
 const App = () => {
   const [calc, setCalc] = useState(false);
   const [order, setOrder] = useState(false);
+  const [preview, setPreview] = useState(null);
  
   const openCalcModal = () => setCalc(true);
-  const closeCalcModal = () => {
-    setCalc(false)
-  }
+  const closeCalcModal = () => setCalc(false);
 
   const openOrderModal = () => setOrder(true);
-  const closeOrderModal = () => {
-    setOrder(false)
-  }
+  const closeOrderModal = () => setOrder(false);
+
+  const openPreviewModal = (path, urls, index) => {
+    setPreview({ path, urls, index });
+  };
+  const closePreviewModal = () => setPreview(false);
 
   return (
     <Router>
@@ -42,7 +44,7 @@ const App = () => {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/projects" component={ServicesAndProjectsContainer} />
+            <Route path="/projects" render={() => <ServicesAndProjectsContainer openPreviewModal={openPreviewModal}/> }/>
             <Route path="/services" component={ServicesAndProjectsContainer} />
             <Route path="/contacts" component={Contacts} />
           </Switch>
@@ -51,8 +53,10 @@ const App = () => {
           <Modal 
             calc={calc} 
             order={order} 
+            preview={preview}
             closeCalcModal={closeCalcModal}
-            closeOrderModal={closeOrderModal}/>
+            closeOrderModal={closeOrderModal}
+            closePreviewModal={closePreviewModal}/>
         </div>
         <div className={classes.spaceAtEnd} />
       </div>

@@ -22,7 +22,7 @@ export default {
   text14: "Люстра Terzani Argent",
   text15: "Кухня-гостиная",
   text16: "Гостевой санузел",
-  path: "../../images/projects/design/vladimir/",
+  path: "design/vladimir/",
   urls: [
     "01.png",
     "02.png",
